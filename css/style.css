@@ -79,20 +79,21 @@ p {
 /* Section B */
 
 .card1 {
-  background-image: url(/images/);
+  background-color: rgba(250, 250, 250, 0.603);
 }
 
 .card2 {
-  background-image: url(/images/);
+  background-color: rgba(250, 250, 250, 0.603);
 }
 
 .card3 {
-  background-image: url(/images/);
+  background-color: rgba(250, 250, 250, 0.603);
 }
 
 #section-b {
   margin-top: 2px;
   padding: 2em 1em 1em;
+  background-color: rgb(32, 32, 32);
 }
 
 #section-b ul {
@@ -103,8 +104,8 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #fff;
-  color: #333;
+  background-color: rgb(32, 32, 32);;
+  color: rgb(0, 0, 0);
 }
 
 .card-content {
@@ -114,8 +115,11 @@ p {
 /* Section C */
 
 #section-c {
-  background: #fff;
-  color: #333;
+  background-image: url(/images/section\ c\ background.jpg);
+  color: #fff !important;
+  z-index: -1;
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255) inset;
+  opacity: 0.9;
   padding: 2em;
 }
 
@@ -126,15 +130,20 @@ p {
   color: #fff;
 }
 
-#section-d .box:first-child {
-  background: #2690d4;
+#section-d .box {
+  background: rgb(71, 71, 71);
+  z-index: -1;
+  box-shadow: 0 0 8px 2px black inset;
+  opacity: 0.7;
 }
 
 /* Footer */
 
 #main-footer {
   padding: 2em;
-  background: #000;
+  background-image: url(/images/footer\ background.jpg);
+  box-shadow: 0 0 1px 1px rgb(153, 153, 153) inset;
+  opacity: 0.5;
   color: #fff;
   text-align: center;
 }
