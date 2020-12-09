@@ -32,11 +32,14 @@ p {
   padding-bottom: 5px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: rgb(233, 233, 233);
   text-decoration: none;
   padding: 0.5em 2em;
   border: 1px solid #666;
   margin: -2em 0;
+  border-radius: 30px;
+  border: 2px solid #333;
+}
 }
 
 .btn:hover {
@@ -53,6 +56,18 @@ p {
   text-align: center;
 }
 
+#phoneNumber {
+  padding-top:15px ;
+  float: right;
+}
+
+#showcaseLogo {
+  padding-top:15px ;
+  float: left;
+  width: 75px;
+  height: 100px;
+}
+
 #showcase .bg-image {
   position: absolute;
   background-image: url("/images/woods.jpg");
@@ -67,7 +82,7 @@ p {
 }
 
 #showcase h1 {
-  padding-top: 100px;
+  padding-top: 115px;
   padding-bottom: 0;
 }
 
@@ -79,24 +94,29 @@ p {
 /* Section B */
 
 .card1 {
-  background-image: linear-gradient(to bottom right, #a1a1a1, rgb(119, 119, 119));
-  border-radius: 16px;
-  margin-right: 30px;
+  background-color: rgb(150, 150, 150);
+  margin-right: 60px;
+  border-radius: 30px;
+  border: 2px solid rgb(119, 119, 119);
 }
 
 .card2 {
-  background-image: linear-gradient(to bottom right, #a1a1a1, rgb(119, 119, 119));
+  background-color: rgb(150, 150, 150);
+  margin-right: 60px;
+  border-radius: 30px;
+  border: 2px solid rgb(119, 119, 119);
 }
 
 .card3 {
-  background-image: linear-gradient(to bottom right, #a1a1a1, rgb(119, 119, 119));
-  margin-left: 30px;
+  background-color: rgb(150, 150, 150);
+  margin-right: 60px;
+  border-radius: 30px;
+  border: 2px solid rgb(119, 119, 119);
 }
 
 #section-b {
-  margin-top: 2px;
-  padding: 2em 2em 2em;
-  background-image: url();
+  margin-top: 5px;
+  padding: 1em 1em 1em;
 }
 
 #section-b ul {
@@ -107,12 +127,12 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background-color: rgb(32, 32, 32);;
-  color: rgb(0, 0, 0);
+
+  color: rgb(99, 73, 73);
 }
 
 .card-content {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 /* Section C */
@@ -120,9 +140,9 @@ p {
 #section-c {
   background-image: url();
   filter: brightness(1.25);
-  color: rgb(201, 201, 201) !important;
+  color: rgb(190, 190, 190) !important;
   z-index: -1;
-  box-shadow: 0 0 2px 1px rgb(34, 34, 34) inset;
+  box-shadow: 0 0 8px 2px rgb(59, 59, 59) inset;
   opacity: 0.9;
   padding: 2em;
 }
@@ -131,13 +151,14 @@ p {
 
 #section-d .box {
   padding: 2em;
-  color: #fff;
+  color: rgb(231, 231, 231);
+  text-shadow: 1px 1px #313131;
 }
 
 #section-d .box {
-  background: rgb(71, 71, 71);
+  background: rgb(68, 68, 68);
   z-index: -1;
-  box-shadow: 0 0 8px 2px rgb(44, 44, 44) inset;
+  box-shadow: 0 0 8px 2px rgb(59, 59, 59) inset;
   opacity: 0.7;
 }
 
@@ -145,10 +166,9 @@ p {
 
 #main-footer {
   padding: 2em;
-  background-image: url(/images/pawel-czerwinski-BP2RioglKXk-unsplash.jpg);
-  box-shadow: 0 0 5px 5px rgb(0, 0, 0) inset;
+  background-image: url(/images/ria-puskas-oZzoDW61aoM-unsplash.jpg);
   color: #ffffff;
-  text-shadow: 1px 1px #d4d4d4;;
+  text-shadow: 1px 1px #d4d4d4;
   opacity: 0.8;
   z-index: -1;
   text-align: center;
@@ -158,6 +178,10 @@ p {
 #main-footer a {
   color: #2690d4;
   text-decoration: none;
+}
+
+#my-store-37840248 {
+  margin-left: ;
 }
 
 /* Media Query  */
